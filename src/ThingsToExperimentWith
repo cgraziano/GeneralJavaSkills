@@ -1,0 +1,18 @@
+List of things or ideas that need explanation or testing
+
+Implement two classes within a single file.
+
+Understand the keyword package in java and how to use it.
+
+Confirm this:
+""""""
+package mytest.myvisibility;
+
+public class MyClass
+{
+    public int myPublicInt; // visible to all
+    protected myProtectedInt; // visible to subclasses of MyClass and to other members of the mytest.myvisibility package
+    int myPackageInt; // visible only to other members of the mytest.myvisibility package
+    private int myPrivateInt; // visible only to MyClass objects.
+}
+""""""""""""""
